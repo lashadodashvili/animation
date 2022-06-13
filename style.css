@@ -1,0 +1,48 @@
+.loading {
+    width: 700px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 100px auto;
+
+
+}
+
+
+
+
+.color {
+    border-radius: 30px;
+    width: 700px;
+    height: 50px;
+
+    background-color: brown;
+    animation: progress 5s normal forwards infinite;
+
+}
+
+
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+.loading p {
+    text-align: center;
+    font-size: 30px;
+    
+}

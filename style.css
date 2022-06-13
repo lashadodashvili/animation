@@ -139,6 +139,96 @@
 
 
 
-.davaleba2{ background-color: antiquewhite;}
-.grass{ width: 100vw;
-height: 200px;}
+.davaleba2 {
+    background-color: antiquewhite;
+}
+
+
+
+
+.grass {
+    width: 100vw;
+    height: 200px;
+}
+
+
+/* .davaleba3 {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 700px;
+    margin-top: 400px;
+} */
+
+
+.ball {
+    width: 200px;
+    height: 200px;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+.gras {
+    margin-top: 300px;
+    width: 100vw;
+    height: 200px;
+}
+
+@keyframes ball {
+    0% {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    10% {
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    20% {
+        margin-top: 0px;
+        margin-left: 400px;
+    }
+
+    30% {
+        margin-top: 200px;
+        margin-left: 600px;
+    }
+
+    40% {
+        margin-top: 0px;
+        margin-left: 800px;
+    }
+
+    50% {
+        margin-top: 200px;
+        margin-left: 1000px;
+    }
+
+    60% {
+        margin-top: 0px;
+        margin-right: 800px;
+    }
+
+    70% {
+        margin-top: 200px;
+        margin-right: 600px;
+    }
+
+    80% {
+        margin-top: 0px;
+        margin-right: 400px;
+    }
+    90% {
+        margin-top: 200px;
+        margin-right: 200px;
+    }
+    100% {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+
+
+}
